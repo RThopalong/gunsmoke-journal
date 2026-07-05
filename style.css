@@ -1,0 +1,25 @@
+:root{--bg:#f7f5f1;--text:#262322;--accent:#7a1f1f;--muted:#6b6560;--maxw:760px;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:Georgia,serif;background:var(--bg);color:var(--text);line-height:1.65;}
+header{background:var(--text);color:#fff;padding:1.5rem 1rem;text-align:center;}
+header h1{margin:0 0 0.5rem 0;font-size:1.8rem;}
+header h1 a{color:#fff;text-decoration:none;}
+header nav a{color:#ddd;margin:0 0.7rem;text-decoration:none;font-family:Arial,sans-serif;font-size:0.95rem;}
+header nav a:hover{color:#fff;text-decoration:underline;}
+main{max-width:var(--maxw);margin:2rem auto;padding:0 1.2rem;}
+h2{font-size:1.6rem;margin-bottom:0.2rem;}
+p.date{font-family:Arial,sans-serif;color:var(--muted);font-size:0.85rem;margin-top:0;margin-bottom:1.5rem;}
+article img{max-width:100%;height:auto;display:block;margin:1.2rem auto;border:1px solid #ddd;}
+article iframe{max-width:100%;display:block;margin:1.2rem auto;}
+figcaption{text-align:center;font-family:Arial,sans-serif;font-size:0.85rem;color:var(--muted);margin-top:-0.8rem;margin-bottom:1.2rem;}
+blockquote{border-left:3px solid var(--accent);margin:1.2rem 0;padding:0.3rem 1rem;color:var(--muted);font-style:italic;}
+a{color:var(--accent);}
+.post-list{list-style:none;padding:0;}
+.post-list li{padding:0.9rem 0;border-bottom:1px solid #ddd;}
+.post-list a{font-size:1.15rem;text-decoration:none;font-weight:bold;}
+.post-list .meta{display:block;font-family:Arial,sans-serif;font-size:0.8rem;color:var(--muted);}
+.intro{font-family:Arial,sans-serif;color:var(--muted);margin-bottom:2rem;}
+footer{text-align:center;font-family:Arial,sans-serif;font-size:0.8rem;color:var(--muted);padding:2rem 1rem;}
+form.contact label{display:block;font-family:Arial,sans-serif;margin:0.8rem 0 0.3rem;}
+form.contact input,form.contact textarea{width:100%;padding:0.5rem;font-family:Arial,sans-serif;border:1px solid #ccc;border-radius:3px;}
+form.contact button{margin-top:1rem;padding:0.6rem 1.2rem;background:var(--accent);color:#fff;border:none;border-radius:3px;cursor:pointer;font-family:Arial,sans-serif;}
